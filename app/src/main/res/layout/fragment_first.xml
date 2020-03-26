@@ -10,10 +10,7 @@
 
     <TextView
         android:id="@+id/word"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="@dimen/text_size"
-        android:textStyle="bold" />
+        style="@style/wrord_title" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
